@@ -58,20 +58,24 @@ which TypeScript can code it more efficiently.
 
 ```ts
 const person = {
-   name: 'John',
+   name: 'Jackie',
    age: 20
 }
 
 console.log(person.nickname); // throw error
+
+person.nickname = 'Jack'; // still error
 ```
 
 > JavaScript
 
 ```js
 const person = {
-   name: 'John',
+   name: 'Jackie',
    age: 20
 }
 
 console.log(person.nickname); // undefined
+
+person.nickname = 'Jack'; // assign the value of nickname
 ```

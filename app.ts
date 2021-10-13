@@ -1,6 +1,7 @@
 const person = {
-   name: 'John',
+   name: 'Jackie',
    age: 30
 }
 
-console.log(person);
+person.nickname = 'Jack';
+console.log(person.nickname);
