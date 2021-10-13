@@ -37,9 +37,9 @@ add('Hello', 2021);
 
 it will throw the error for us.
 
-> JavaScript
-
 In JavaScript code it will be longer if we want to do same thing
+
+> JavaScript
 
 ```js
 function add(num1, num2){
