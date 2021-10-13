@@ -12,8 +12,8 @@ TypeScript is a strongly typed programming language that compile as a JavaScript
 
 > TypeScript does not run on the browser
 
-```sh
-tsc <filename>
+```
+   tsc <filename>
 ```
 
 You need to run this command to compile as a JavaScript file, to get executed on the browser
