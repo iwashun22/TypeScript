@@ -51,3 +51,27 @@ function add(num1, num2){
 ```
 
 which TypeScript can code it more efficiently.
+
+### Another differences between TypeScritp and JavaScript
+
+> TypeScript
+
+```ts
+const person = {
+   name: 'John',
+   age: 20
+}
+
+console.log(person.nickname); // throw error
+```
+
+> JavaScript
+
+```js
+const person = {
+   name: 'John',
+   age: 20
+}
+
+console.log(person.nickname); // undefined
+```
