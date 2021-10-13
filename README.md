@@ -21,6 +21,8 @@ You need to run this command on terminal to compile as a JavaScript file, to get
 
 ### This is an example how it works
 
+> TypeScript
+
 ```ts
 function add(num1: number, num2: number){
    return num1 + num2;
@@ -34,6 +36,8 @@ add('Hello', 2021);
 ```
 
 it will throw the error for us.
+
+> JavaScript
 
 In JavaScript code it will be longer if we want to do same thing
 
