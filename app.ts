@@ -1,7 +1,6 @@
-// run tsc <filename> and it will compile to JavaScript file
-// note: TypeScript does not run on the browser
 
 function add(num1: number, num2: number){
+   console.log(typeof num1);
    return num1 + num2;
 }
 
