@@ -79,3 +79,25 @@ console.log(person.nickname); // undefined
 
 person.nickname = 'Jack'; // assign the value of nickname
 ```
+
+## ENUM
+
+Enum is a special variable in TypeScript, shortened from enumerate. It works like an Object, but the value will be counted from 0 as default
+
+```ts
+enum Role {
+   admin, // 0
+   read_only, // 1
+   member, // 2 ...
+}
+```
+
+But you can also set the value to different number or to string if you want
+
+```ts
+enum Role {
+   admin = 10,
+   read_only = 20,
+   member = 'new member'
+}
+```
