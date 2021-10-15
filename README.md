@@ -101,3 +101,26 @@ enum Role {
    member = 'new member'
 }
 ```
+
+## Type alias
+
+This is also the special type alias that you can use in TypeScript.
+It can be any variable type and you can defined what value should be in there.
+
+Here is how you create them.
+
+```ts
+type Choices = 'yes' | 'no';
+
+function definePerson(
+   name: string,
+   age: number,
+   isMale: Choices,
+   isTall: Choices,
+   isProgrammer: Choices
+){
+   ...
+}
+```
+
+`type` isn't a variable, it only defines which type of variable will be.
