@@ -52,7 +52,7 @@ function add(num1, num2){
 
 which TypeScript can code it more efficiently.
 
-### Another differences between TypeScritp and JavaScript
+### Another differences between TypeScript and JavaScript
 
 > TypeScript
 
@@ -101,6 +101,7 @@ enum Role {
    member = 'new member'
 }
 ```
+<<<<<<< HEAD
 
 ## Type alias
 
@@ -124,3 +125,5 @@ function definePerson(
 ```
 
 `type` isn't a variable, it only defines which type of variable will be.
+=======
+>>>>>>> 6b7585d68ac2692684a401147e2c6c3b245ad4d4
