@@ -125,5 +125,3 @@ function definePerson(
 ```
 
 `type` isn't a variable, it only defines which type of variable will be.
-=======
->>>>>>> 6b7585d68ac2692684a401147e2c6c3b245ad4d4
