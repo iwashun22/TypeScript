@@ -52,7 +52,7 @@ function add(num1, num2){
 
 which TypeScript can code it more efficiently.
 
-### Another differences between TypeScritp and JavaScript
+### Another differences between TypeScript and JavaScript
 
 > TypeScript
 
