@@ -1,0 +1,23 @@
+node: 
+  version: 18
+
+typescript: 
+  version: 4
+
+main: 
+  language: 'typescript'
+
+  explain:
+    descripttion: 'Each file has a comment'
+    files:
+      - 'app.ts'
+      - 'basics.ts'
+      - 'enum.ts'
+      - 'unknown.ts'
+
+  practice:
+    folder: 3
+    npm-run:
+      - 'practice-one'
+      - 'practice-two'
+      - 'practice-three'

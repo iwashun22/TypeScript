@@ -13,3 +13,7 @@ unknown = 'Goodbye world';
 
 string = any;
 string = unknown; // error
+
+if(typeof unknown === 'string'){
+   string = unknown; // no error
+}
