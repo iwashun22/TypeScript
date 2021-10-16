@@ -1,4 +1,4 @@
-function addAndCallback(
+export function addAndCallback(
    n1: number,
    n2: number,
    cb: (num: number) => void
@@ -19,7 +19,7 @@ type ThreeParam = (
    three: (result: number) => void
 ) => void
 
-const subtractAndCallback: ThreeParam = (n1, n2, cb) => {
+export const subtractAndCallback: ThreeParam = (n1, n2, cb) => {
    const result = n1 - n2;
    cb(result);
 }
@@ -28,19 +28,19 @@ const subtractAndCallback: ThreeParam = (n1, n2, cb) => {
 //    console.log(result);
 // })
 
-const multiplyAndCallback: ThreeParam = (n1, n2, cb) => {
+export const multiplyAndCallback: ThreeParam = (n1, n2, cb) => {
    const result = n1 * n2;
    cb(result);
 }
 
-const devideAndCallback: ThreeParam = (n1, n2, cb) => {
+export const devideAndCallback: ThreeParam = (n1, n2, cb) => {
    const result = n1 / n2;
    cb(result);
 }
 
-module.exports = {
-   addAndCallback,
-   subtractAndCallback,
-   multiplyAndCallback,
-   devideAndCallback,
-}
+// module.exports = {
+//    addAndCallback,
+//    subtractAndCallback,
+//    multiplyAndCallback,
+//    devideAndCallback,
+// }

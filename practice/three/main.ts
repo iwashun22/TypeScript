@@ -1,4 +1,9 @@
-const c = require('./module');
+// const c = require('./module');
+
+import { addAndCallback } from './module';
+import { subtractAndCallback } from './module';
+import { multiplyAndCallback } from './module';
+import { devideAndCallback } from './module';
 
 type Choices = 'yes' | 'no';
 
@@ -20,7 +25,7 @@ const person_two: Person = {
    isMale: 'no'
 }
 
-c.addAndCallback(person_one.age, person_two.age, (result: number) => {
+addAndCallback(person_one.age, person_two.age, (result) => {
    const mean = result / 2;
    console.log(`The average age is: ${mean}`);
 })
