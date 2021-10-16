@@ -1,3 +1,5 @@
+const c = require('./module');
+
 type Choices = 'yes' | 'no';
 
 type Person = {
@@ -17,3 +19,8 @@ const person_two: Person = {
    age: 19,
    isMale: 'no'
 }
+
+c.addAndCallback(person_one.age, person_two.age, (result: number) => {
+   const mean = result / 2;
+   console.log(`The average age is: ${mean}`);
+})
