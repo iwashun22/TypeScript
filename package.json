@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server",
-    "practice-one": "npx tsc --project ./practice/one ; node ./practice/one/main.js",
-    "practice-two": "npx tsc --project ./practice/two ; node ./practice/two/main.js",
-    "practice-three": "npx tsc --project ./practice/three ; node ./practice/three/main.js"
+    "practice-one": "node ./practice/one/main.js",
+    "practice-two": "node ./practice/two/main.js",
+    "practice-three": "node ./practice/three/main.js"
   },
   "repository": {
     "type": "git",
